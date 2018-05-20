@@ -30,3 +30,14 @@ Route::get('alluser', [
   'uses' => 'UserController@show',
   'as' => 'alluser_phat'
 ]);
+
+Route::get('sortear', [
+  'uses' => 'UserController@sortea',
+  'as' => 'sortear_phat'
+]);
+
+Route::get('ventasall', [
+  'uses' => 'UserController@ventasall',
+  'as' => 'ventasall_phat'
+]);
+
